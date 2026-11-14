@@ -1,4 +1,4 @@
-# NVDA Next-Day Direction Prediction
+# NVIDIA Next-Day Stock-Direction Prediction Model
 
 A data science project that tries to predict whether NVIDIA (NVDA) stock will close **up or down tomorrow**, using technical indicators and machine learning.
 
