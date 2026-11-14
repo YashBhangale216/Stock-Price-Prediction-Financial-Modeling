@@ -107,4 +107,4 @@ Python, pandas, NumPy, yfinance, matplotlib, statsmodels, scikit-learn, Jupyter.
 
 ## Author
 
-Your name | LinkedIn | GitHub
+Yash Bhangale | LinkedIn = https://www.linkedin.com/in/yash-bhangale-6a2558314/ | GitHub = https://github.com/YashBhangale216
