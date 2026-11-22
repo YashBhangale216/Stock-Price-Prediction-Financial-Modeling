@@ -82,6 +82,33 @@ An earlier version of the test showed the strategy slightly ahead (1.487 vs 1.42
 - Predict a longer horizon (one week) or predict volatility instead of direction.
 - Add transaction costs to the backtest.
 
+#Backtest Result 
+<img width="981" height="528" alt="image" src="https://github.com/user-attachments/assets/da46eab9-14c4-4713-a7f2-ac41e2c4c6dc" />
+📉 Can a model beat "buy and hold" on NVIDIA? I tested it, and here is what the chart shows.
+
+For my NVDA prediction project, I backtested a simple strategy over 542 test days (Sep 2024 to Nov 2026):
+• Blue line: buy NVDA and hold
+• Orange line: hold NVDA only on days my Random Forest model says "up", stay in cash otherwise
+
+Final value of $1:
+• Buy and hold: $1.50
+• Model strategy: $1.49
+
+At first glance, the model looks fine. But the chart tells a different story:
+
+1️⃣ The big jump in the orange line in spring 2025 came from just a few days. That looks like luck, not skill.
+2️⃣ After May 2025, the orange line is completely flat. The model said "down" every day and sat in cash for about 18 months. It missed NVDA's whole rise to 2.0.
+3️⃣ The strategy only caught up at the end because it was in cash during the sharp November sell-off. Avoiding a drop by not being invested is not the same as predicting it.
+
+💡 My takeaways:
+• Judge a backtest by its path, not just its final number.
+• Ask where the profit came from: many small wins, or a few lucky days?
+• This test also ignores transaction costs, which would lower the strategy further.
+• Earlier, my backtest showed the strategy winning. A bug in the last row caused that, and the "win" disappeared after I fixed it. I now check my own results before trusting them.
+
+I treat this as no reliable edge, and I would rather report that honestly than polish it.
+I am open to data analyst and data science roles, and I would welcome feedback from anyone working with time series or financial data. 🤝
+
 ## How to run
 
 ```bash
