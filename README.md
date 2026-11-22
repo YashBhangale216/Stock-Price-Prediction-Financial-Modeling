@@ -82,7 +82,7 @@ An earlier version of the test showed the strategy slightly ahead (1.487 vs 1.42
 - Predict a longer horizon (one week) or predict volatility instead of direction.
 - Add transaction costs to the backtest.
 
-#Backtest Result 
+## Backtest Result 
 <img width="981" height="528" alt="image" src="https://github.com/user-attachments/assets/da46eab9-14c4-4713-a7f2-ac41e2c4c6dc" />
 📉 Can a model beat "buy and hold" on NVIDIA? I tested it, and here is what the chart shows.
 
