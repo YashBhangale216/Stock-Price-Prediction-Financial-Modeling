@@ -101,7 +101,7 @@ At first glance, the model looks fine. But the chart tells a different story:
 3️⃣ The strategy only caught up at the end because it was in cash during the sharp November sell-off. Avoiding a drop by not being invested is not the same as predicting it.
 
 💡 My takeaways:
-• Judge a backtest by its path, not just its final number.
+• Judge a backtest by its path, not just its final number.                 
 • Ask where the profit came from: many small wins, or a few lucky days?
 • This test also ignores transaction costs, which would lower the strategy further.
 • Earlier, my backtest showed the strategy winning. A bug in the last row caused that, and the "win" disappeared after I fixed it. I now check my own results before trusting them.
