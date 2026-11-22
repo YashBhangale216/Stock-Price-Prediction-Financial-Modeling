@@ -97,7 +97,7 @@ Final value of $1:
 At first glance, the model looks fine. But the chart tells a different story:
 
 1️⃣ The big jump in the orange line in spring 2025 came from just a few days. That looks like luck, not skill.                           
-2️⃣ After May 2025, the orange line is completely flat. The model said "down" every day and sat in cash for about 18 months. It missed NVDA's whole rise to 2.0.
+2️⃣ After May 2025, the orange line is completely flat. The model said "down" every day and sat in cash for about 18 months. It missed NVDA's whole rise to 2.0.             
 3️⃣ The strategy only caught up at the end because it was in cash during the sharp November sell-off. Avoiding a drop by not being invested is not the same as predicting it.
 
 💡 My takeaways:
